@@ -1,0 +1,28 @@
+
+/* Estilos para telas menores que 768px */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px !important;
+    /* width: 90% !important; */
+
+  }
+} 
+
+/* Estilos para telas menores que 480px */
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 12px;
+    /* width: 90%; */
+    /* background-color: red; */
+  }
+} 
+
+/* Estilos para telas menores que 375px (modo retrato) */
+@media only screen and (max-width: 375px) {
+  body{
+  font-size: 12px !important;
+  /* width: 90% !important; */
+  } 
+    
+}
+
